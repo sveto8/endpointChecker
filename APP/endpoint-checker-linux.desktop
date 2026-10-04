@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Endpoint Checker
-Comment=Small Postman-like API tester (opens in your browser)
-# Change the path below to where you put endpoint-checker.jar
-Exec=java -jar /home/YOUR_USER/apps/endpoint-checker/endpoint-checker.jar
-Terminal=false
-Categories=Development;Network;

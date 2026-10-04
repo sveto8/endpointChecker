@@ -5,7 +5,7 @@ setlocal
 
 rem --- OPTIONAL: if endpoint-checker.jar is NOT in the same folder as this file,
 rem --- write its full path here, e.g.  set "JAR=C:\Tools\EndpointChecker\endpoint-checker.jar"
-#set "JAR=C:\Users\sub\Downloads\endpointChecker\endpointChecker-v3\JAVA\target\endpoint-checker.jar"
+#set "JAR=C:\Users\_USERNAME_\Downloads\endpointChecker\endpointChecker-v3\JAVA\target\endpoint-checker.jar"
 
 if not defined JAR set "JAR=%~dp0endpoint-checker.jar"
 if not exist "%JAR%" (

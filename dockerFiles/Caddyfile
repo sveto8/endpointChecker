@@ -1,0 +1,19 @@
+{$DOMAIN} {
+	encode gzip
+
+	# Zamijeni ime i hash. Hash napravis s:
+	#   docker run --rm -it caddy caddy hash-password
+	basic_auth {
+		admin PASTE_BCRYPT_HASH_HERE
+	}
+
+	reverse_proxy app:8080
+
+	header {
+		Strict-Transport-Security "max-age=31536000"
+		X-Content-Type-Options "nosniff"
+		X-Frame-Options "DENY"
+		Referrer-Policy "no-referrer"
+		-Server
+	}
+}

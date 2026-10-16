@@ -1,3 +1,10 @@
+----------
+
+NOTE - This is a hobby project created primarily for my personal needs. 
+
+----------
+
+
 Endpoint Checker - folder layout
 
 APP/          What you run (and the only folder you need to copy to another computer).
